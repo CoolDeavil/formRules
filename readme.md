@@ -1,5 +1,5 @@
-##FRules 
-###TypeScript Form Validation Class
+FRules<br>
+TypeScript Form Validation Class
 - It can perform both sequential and async Validations
 - Customizable error tags
 - Minimal Configuration
