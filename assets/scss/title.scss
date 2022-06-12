@@ -1,0 +1,36 @@
+
+
+$title_color:  #006d6d;
+$small_color: rgba(0,0,0,0.6);
+$color: $title_color;
+$color_main: orangered;
+$size_md: 2rem;
+$size_sm_md: 1.2rem;
+$size_main: 1.4rem;
+
+.title {
+  font-size: $size_md;
+  font-weight: bolder;
+  color: $color;
+  margin: 0;
+  padding: 0;
+  text-align: left!important;
+  &.main {
+    color: $color_main;
+
+  }
+
+  small {
+    display: block;
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: $size_sm_md;
+    font-style: italic;
+    color: $small_color;
+    a {
+      text-decoration: none;
+      font-size: .7rem;
+    }
+  }
+
+}
